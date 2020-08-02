@@ -14,7 +14,8 @@ backup ${zshrc}
 cat>${zshrc}<<EOF
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="mortalscumbag"
+ZSH_THEME="af-magic"
+#ZSH_THEME="mortalscumbag"
 #ZSH_THEME="jnrowe"
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="avit"
