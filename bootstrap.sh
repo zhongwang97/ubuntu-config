@@ -14,12 +14,6 @@ checkSudo
 # # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
 # EOF
 
-cat>>/etc/hosts<<EOF
-151.101.192.133 raw.github.com
-151.101.128.133 raw.githubusercontent.com
-192.30.255.117 api.github.com
-EOF
-
 apt update
 
 tryInstall vim
